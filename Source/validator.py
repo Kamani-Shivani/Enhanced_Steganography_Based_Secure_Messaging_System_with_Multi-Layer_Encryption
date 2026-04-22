@@ -1,4 +1,4 @@
-def validate_message_length(message, max_limit=500):
+def validate_message_length(message, max_limit=400):
     length = len(message)
 
     if length > max_limit:
